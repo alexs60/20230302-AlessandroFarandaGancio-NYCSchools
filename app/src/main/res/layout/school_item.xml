@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="64dp">
+
+    <ImageView
+        android:id="@+id/schoolItemIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/schoolItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/schoolItemIcon"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:textColor="@color/row_item_material_tint"/>
+
+    <TextView
+        android:id="@+id/schoolItemAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schoolItemName"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@id/schoolItemIcon"
+        android:paddingEnd="16dp"
+        android:maxLines="2"
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="@color/row_item_material_tint"/>
+
+</RelativeLayout>

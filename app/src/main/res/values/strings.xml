@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NYCSchools</string>
+    <string name="title_activity_schools_list">SchoolsListActivity</string>
+
+    <string name="school_list_fragment_label">School List</string>
+    <string name="school_detail_fragment_label">School Detail</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_school_list">SchoolListActivity</string>
+    <string name="schoolNameLabel">School Name:</string>
+    <string name="schoolLocationLabel">Address:</string>
+    <string name="schoolEmailLabel">Email:</string>
+    <string name="schoolWebsiteLabel">Web:</string>
+    <string name="schoolSATWritingAverageScoreLabel">SAT writing AVG score:</string>
+    <string name="schoolSATMathAverageScoreLabel">SAT math AVG score:</string>
+    <string name="schoolSATReadingAverageScoreLabel">SAT reading AVG score:</string>
+    <string name="schoolSATTestTakersLabel">SAT test attendance:</string>
+    <string name="no_sat_data_available">No SAT data available for this school</string>
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/margin_lateral"
+    android:layout_marginTop="@dimen/margin_top"
+    android:layout_marginEnd="@dimen/margin_lateral"
+    android:orientation="vertical"
+    tools:context=".school.view.details.DetailsFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/SchoolDetailLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolNameLabel"
+                android:textSize="@dimen/label_size" />
+
+            <TextView
+                android:id="@+id/schoolName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolLocationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolLocationLabel" />
+
+            <TextView
+                android:id="@+id/schoolLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolEmailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolEmailLabel" />
+
+            <TextView
+                android:id="@+id/schoolEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolWebsiteLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolWebsiteLabel" />
+
+
+            <TextView
+                android:id="@+id/schoolWebsite"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/SATLayout"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolSATTestTakersLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolSATTestTakersLabel" />
+
+
+            <TextView
+                android:id="@+id/schoolSATTestTakers"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolSATReadingAverageScoreLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolSATReadingAverageScoreLabel" />
+
+
+            <TextView
+                android:id="@+id/schoolSATReadingAverageScore"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolSATMathAverageScoreLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolSATMathAverageScoreLabel" />
+
+            <TextView
+                android:id="@+id/schoolSATMathAverageScore"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_item_row"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schoolSATWritingAverageScoreLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolSATWritingAverageScoreLabel" />
+
+            <TextView
+                android:id="@+id/schoolSATWritingAverageScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/value_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/SATLayoutEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/value_size"
+            android:layout_height="wrap_content"
+            android:text="@string/no_sat_data_available" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/error_in_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_200" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ListFragment">
+
+    <fragment
+        android:id="@+id/ListFragment"
+        android:name="com.alessandrofarandagancio.nycschools.school.view.ListFragment"
+        android:label="@string/school_list_fragment_label"
+        tools:layout="@layout/fragment_list">
+
+        <action
+            android:id="@+id/action_ListFragment_to_DetailsFragment"
+            app:destination="@id/DetailsFragment" />
+
+        <argument
+            android:name="school"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.alessandrofarandagancio.nycschools.school.view.details.DetailsFragment"
+        android:label="@string/school_detail_fragment_label"
+        tools:layout="@layout/fragment_details">
+
+        <action
+            android:id="@+id/action_DetailsFragment_to_ListFragment"
+            app:destination="@id/ListFragment" />
+    </fragment>
+</navigation>
